@@ -1,0 +1,152 @@
+body {
+  background-color: hsl(0, 100%, 95%);
+  font-family: Cambria, Aries; 
+}
+
+#header-img {
+  width: 75px;
+  position: fixed;
+  top: 5px;
+  left: 0;
+}
+
+#header {
+ font-size: 45px;
+ text-align: left;
+  position: fixed;
+  top: 0;
+  left: 75px;
+  margin-top: 10px;
+  color: red;
+   font-weight: bold;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+nav > ul {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(0, 100%, 70%);
+  transition: background-color 1s;
+}
+
+form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#features .icon {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  height: 30px;
+  width: 50vw;
+  color: red;
+}
+
+p {
+  text-align: left;
+  margin-top: -32px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+#more-details {
+margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+ol {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#lite {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#buy-now {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 3px solid #000;
+  border-radius: 3px;
+  background-color: hsl(0, 100%, 87%);
+}
+
+.product > button {
+  margin: 25px 0;
+  background-color: white;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: hsl(0, 100%, 70%);
+  transition: background-color 1s;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
